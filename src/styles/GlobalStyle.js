@@ -1,5 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
+import fonts from "./fonts";
+import variables from "./variables"
+
 const GlobalStyle = createGlobalStyle`
     ${fonts}
     ${variables}
@@ -11,6 +14,9 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
     font-family: var(--font-montserrat);
 
+    h1 {
+        font-family: var(--font-montserrat);
+    }
 }
 
 `
