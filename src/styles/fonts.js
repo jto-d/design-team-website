@@ -6,6 +6,11 @@ import MontserratRegular from '../fonts/Montserrat-Regular.ttf'
 import MontserratSemiBold from '../fonts/Montserrat-SemiBold.ttf'
 import MontserratMedium from '../fonts/Montserrat-Medium.ttf'
 
+import ProximaNovaRegular from '../fonts/ProximaNova-Regular.otf'
+import ProximaNovaSemiBold from '../fonts/ProximaNova-Semibold.otf'
+import ProximaNovaBold from '../fonts/ProximaNova-Bold.otf'
+import ProximaNovaMedium from '../fonts/ProximaNova-Medium.otf'
+
 
 const montserratNormalWeights = {
     400: MontserratRegular,
@@ -14,9 +19,21 @@ const montserratNormalWeights = {
     700: MontserratBold
 }
 
+const proximaNovaNormalWeights = {
+    400: ProximaNovaRegular,
+    500: ProximaNovaMedium,
+    600: ProximaNovaSemiBold,
+    700: ProximaNovaBold
+}
+
 const montserrat = {
     name: 'Montserrat',
     normal: montserratNormalWeights
+}
+
+const proximaNova = {
+    name: 'Proxima Nova',
+    normal: proximaNovaNormalWeights
 }
 
 const createFontFace = (family, style = 'normal') => {
@@ -38,9 +55,11 @@ const createFontFace = (family, style = 'normal') => {
 }
 
 const montserratNormal = createFontFace(montserrat)
+const proximaNovaNormal = createFontFace(proximaNova)
 
 const fonts = css`
     ${montserratNormal}
+    ${proximaNovaNormal}
 `
 
 export default fonts

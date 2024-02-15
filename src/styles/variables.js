@@ -8,6 +8,7 @@ const variables = css`
         --text-color: #FBF9FF;
 
         --font-montserrat: 'Montserrat', sans-serif;
+        --font-proximanova: 'Proxima Nova', sans-serif;
     }
 
 `
