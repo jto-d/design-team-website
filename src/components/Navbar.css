@@ -1,0 +1,50 @@
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+  }
+  
+
+.navigation-bar .logo {
+    margin-right: auto; /* pushes everything else to the right */
+    margin-top: 0.4%;
+    margin-left: 5%; /* 25% from the left side */
+  }  
+
+  .navigation-bar .logo img {
+    height: 2.5rem; /* 40px; Adjust to the desired size */
+    width: auto;
+  }
+  
+  .navigation-bar .logo a {
+    display: inline-block;
+  }
+  
+  .navigation-bar .menu {
+    margin-left: 62%; /* pushes social media icons to the right */
+  }
+  
+  .navigation-bar .menu a {
+    margin: 0 0.625rem; /* 10px */
+    font-size: .8rem; /* 16px; Adjust size as needed */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navigation-bar .menu a:hover {
+    text-decoration: underline;
+  }
+
+  .navigation-bar .social-media {
+    margin-top: 0.4%;
+    margin-left: auto; 
+    margin-right: 5%; 
+  }
+  
+  .navigation-bar .social-media img {
+    width: 1.25rem; 
+    height: auto;
+  }
