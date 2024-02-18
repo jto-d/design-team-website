@@ -15,10 +15,15 @@
   }  
 
   .navigation-bar .logo img {
+    transition: filter 0.3s ease;
     height: 2.5rem; /* 40px; Adjust to the desired size */
     width: auto;
   }
   
+  .navigation-bar .logo img:hover {
+    filter: brightness(50%); /* Adjust the percentage to get the desired darkness */
+  }
+
   .navigation-bar .logo a {
     display: inline-block;
   }
@@ -32,10 +37,12 @@
     font-size: .8rem; /* 16px; Adjust size as needed */
     color: #fff;
     text-decoration: none;
+    transition: filter 0.3s ease;
   }
   
   .navigation-bar .menu a:hover {
-    text-decoration: underline;
+    filter: brightness(50%); /* Adjust the percentage to get the desired darkness */
+   /* text-decoration: underline; */
   }
 
   .navigation-bar .social-media {
@@ -45,6 +52,11 @@
   }
   
   .navigation-bar .social-media img {
+    transition: filter 0.3s ease;
     width: 1.25rem; 
     height: auto;
+  }
+
+  .navigation-bar .social-media img:hover {
+    filter: brightness(50%); /* Adjust the percentage to get the desired darkness */
   }
