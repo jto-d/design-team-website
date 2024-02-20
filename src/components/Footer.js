@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css';
-import scrollToTop from '../assets/scroll_to_top_2.svg'; 
+import scrollToTop from '../assets/scroll_to_top.svg'; 
 
 const Footer = () => {
   return (

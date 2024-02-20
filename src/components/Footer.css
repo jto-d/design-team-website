@@ -19,7 +19,7 @@ html {
 }
 
 .footer a:hover {
-    filter: brightness(50%); /* Adjust the percentage to get the desired darkness */
+    filter: brightness(50%); 
 }
 
 .footer-content {
@@ -32,12 +32,12 @@ html {
 }
 
 .footer-social a {
-    color: grey; /* Set link color to grey */
+    color: grey; 
     transition: filter 0.3s ease;
 }
 
 .footer-social a:hover {
-    filter: brightness(50%); /* Adjust the percentage to get the desired darkness */
+    filter: brightness(50%); 
     text-decoration: none;
 }
 .footer-copy {
@@ -46,13 +46,13 @@ html {
 
 .footer-top {
     position: absolute;
-    right: 2rem; /* 10px converted to rem */
-    bottom: 1rem; /* 10px converted to rem */
+    right: 2rem; 
+    bottom: 1rem; 
     cursor: pointer;
 }
 
 .footer-top img {
-    width: 2.5rem;  /* Adjust the width as needed */
-    height: auto; /* This will ensure the aspect ratio is maintained */
+    width: 2.5rem;  
+    height: auto; 
     cursor: pointer;
 }
