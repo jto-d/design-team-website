@@ -3,7 +3,7 @@ import {Header} from '../components'
 
 const About = () => {
   return (
-    <Header> hi</Header>
+    <Header> </Header>
   )
 }
 
