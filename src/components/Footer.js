@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css';
+import scrollToTop from '../assets/scroll_to_top_2.svg'; 
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
               © 2024 princeton e-club design
           </div>
           <a href="#top" className="footer-top">
-              <div className="top-arrow"></div>
+            <img src={scrollToTop} alt="Scroll to top" />
           </a>
       </footer>
   );

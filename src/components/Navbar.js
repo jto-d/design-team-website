@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Navbar.css'; // Make sure to create a CSS file with the name `NavigationBar.css`
-import designLogoImage from '../assets/team_logo.png'; 
+import designLogoImage from '../assets/team_logo_light.svg'; 
 import igLogoImage from '../assets/ig_logo.svg'; 
 
 const Navbar = () => {
