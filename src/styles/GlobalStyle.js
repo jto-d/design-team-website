@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     scroll-behavior: smooth;
     font-family: var(--font-proximanova);
+    background-color: var(--background-color);
 
     h1 {
         font-family: var(--font-montserrat);
