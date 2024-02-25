@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { Tag } from '../components'
+import { Tag, Title } from '../components'
 
 const Container = styled.div`
   background-color: #111111;
@@ -13,19 +13,19 @@ const Container = styled.div`
 
 `
 
-const Heading = styled.h1`
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 110px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+// const Heading = styled.h1`
+//   text-align: center;
+//   font-family: Montserrat;
+//   font-size: 110px;
+//   font-style: normal;
+//   font-weight: 600;
+//   line-height: normal;
 
-  background: linear-gradient(92deg, #F6AC5D 19.68%, #DB6575 57.48%, #CA1E54 107.32%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-`
+//   background: linear-gradient(92deg, #F6AC5D 19.68%, #DB6575 57.48%, #CA1E54 107.32%);
+//   background-clip: text;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// `
 
 const Subheading = styled.h2`
   color: #FBF9FF;
@@ -52,7 +52,7 @@ const Tags = styled.div`
 
 /* JUST REALIZED WE NoT DOING THIS LOLOL */
 
-const Title = styled.h1`
+const Subtitle = styled.h1`
   font-weight: 600;
   font-family: var(--font-montserrat);
   font-size: 30px;
@@ -133,7 +133,7 @@ const Home = () => {
   return (
     <>
       <Container>
-        <Heading>e-club design</Heading>
+        <Title />
         <Subheading>student-run creative design hub @ princeton e-club</Subheading>
         <Tags>
           <Tag color={"#F6AC5D"} opacity={0.85} text={"graphic design"} />
@@ -144,7 +144,7 @@ const Home = () => {
         </Tags> 
       </Container>
       <WorkContainer>
-        <Title>featured work</Title>
+        <Subtitle>featured work</Subtitle>
         <FeaturedWork>
           <WorkSlide />
           <WorkSlide />

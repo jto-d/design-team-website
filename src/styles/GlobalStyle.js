@@ -12,7 +12,6 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: var(--font-proximanova);
 
     h1 {
         font-family: var(--font-montserrat);
