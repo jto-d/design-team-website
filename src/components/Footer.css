@@ -8,7 +8,7 @@ html {
     background-color: var(--background-color);
     text-align: center;
     padding: 1.25rem;
-    font-family: Arial, sans-serif;
+    font-family: proxima-nova;
     position: relative;
 }
 
