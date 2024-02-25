@@ -64,11 +64,9 @@ const Title = styled.h1`
 const WorkContainer = styled.div`
   background-color: var(--background-color);
   color: white;
-  margin-left: 5%;
+  padding: 5% 100px;
   font-size: 30px;
-  width: 90%;
-  margin-right: 5%;
-  margin-top: 100px;
+  width: 100%;
   text-align: left;
 
   ${props => props.right && css`
@@ -86,7 +84,7 @@ const Text = styled.p`
 const FeaturedWork = styled.div`
   width: 100%;
   height: 60vh;
-  margin-top: 100px;
+  margin-top: 50px;
 
   display: flex;
   justify-content: space-between;
@@ -99,7 +97,6 @@ const WorkSlide = styled.div`
 `
 
 const Banner = styled.div`
-  margin-top: 100px;
   display: flex;
   height: 30vh;
   background: linear-gradient(90deg, #F6AC5D -6.66%, #DB6575 51.75%, #CA1E54 99.84%);
