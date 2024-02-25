@@ -3,6 +3,7 @@ html {
   }
 
 .footer {
+    background-color: #111111;
     color: #fff;
     background-color: var(--background-color);
     text-align: center;

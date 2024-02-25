@@ -64,11 +64,9 @@ const Title = styled.h1`
 const WorkContainer = styled.div`
   background-color: var(--background-color);
   color: white;
-  margin-left: 5%;
+  padding: 5% 100px;
   font-size: 30px;
-  width: 90%;
-  margin-right: 5%;
-  margin-top: 100px;
+  width: 100%;
   text-align: left;
 
   ${props => props.right && css`
@@ -86,7 +84,7 @@ const Text = styled.p`
 const FeaturedWork = styled.div`
   width: 100%;
   height: 60vh;
-  margin-top: 100px;
+  margin-top: 50px;
 
   display: flex;
   justify-content: space-between;
@@ -99,7 +97,6 @@ const WorkSlide = styled.div`
 `
 
 const Banner = styled.div`
-  margin-top: 100px;
   display: flex;
   height: 30vh;
   background: linear-gradient(90deg, #F6AC5D -6.66%, #DB6575 51.75%, #CA1E54 99.84%);
@@ -110,18 +107,26 @@ const BannerText = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 40%;
   text-align: center;
   background-color: transparent;
 
   h1 {
-    margin: 0 30px;
+    margin: 0 20px;
     background-color: transparent;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 1.5rem;
     color: var(--text-color);
+    margin-bottom: 20px;
   }
 
+`
+const VertLine = styled.div`
+  width: 2px;
+  background-color: white;
+  margin: auto;
+  height: 50%;
+  
 `
 
 const Home = () => {
@@ -152,6 +157,7 @@ const Home = () => {
           <Tag color={"#FBF9FF"} text={"request designs from us"} transparent/>
 
         </BannerText>
+        <VertLine />
         <BannerText>
           <h1>interested in making an impact through designs?</h1>
           <Tag color={"#FBF9FF"} text={"compete at designximpact"} transparentRight/>
