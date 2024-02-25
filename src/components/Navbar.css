@@ -1,5 +1,6 @@
 .navigation-bar {
     display: flex;
+    font-family: proxima-nova;
     justify-content: space-between;
     align-items: center;
     background-color: #111111;

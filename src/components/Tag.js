@@ -16,7 +16,7 @@ const Container = styled.div`
     p {
         color: #FBF9FF;
         text-align: center;
-        font-family: "Proxima Nova";
+        font-family: "proxima-nova";
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;

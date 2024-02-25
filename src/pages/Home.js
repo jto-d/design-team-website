@@ -30,7 +30,7 @@ const Container = styled.div`
 const Subheading = styled.h2`
   color: #FBF9FF;
   text-align: center;
-  font-family: "Proxima Nova";
+  font-family: "proxima-nova";
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
