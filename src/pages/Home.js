@@ -110,18 +110,26 @@ const BannerText = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 40%;
   text-align: center;
   background-color: transparent;
 
   h1 {
-    margin: 0 30px;
+    margin: 0 20px;
     background-color: transparent;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 1.5rem;
     color: var(--text-color);
+    margin-bottom: 20px;
   }
 
+`
+const VertLine = styled.div`
+  width: 2px;
+  background-color: white;
+  margin: auto;
+  height: 50%;
+  
 `
 
 const Home = () => {
@@ -152,6 +160,7 @@ const Home = () => {
           <Tag color={"#FBF9FF"} text={"request designs from us"} transparent/>
 
         </BannerText>
+        <VertLine />
         <BannerText>
           <h1>interested in making an impact through designs?</h1>
           <Tag color={"#FBF9FF"} text={"compete at designximpact"} transparentRight/>

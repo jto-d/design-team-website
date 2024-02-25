@@ -43,9 +43,9 @@ const Container = styled.div`
 
 `
 
-const Tag = ({ text, color, opacity, transparent }) => {
+const Tag = ({ text, color, opacity, transparent, transparentRight }) => {
   return (
-    <Container color={color} opacity={opacity} transparent={transparent}>
+    <Container color={color} opacity={opacity} transparent={transparent} transparentRight={transparentRight}>
         <p>
             {text}
         </p>
