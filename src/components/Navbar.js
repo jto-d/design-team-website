@@ -19,7 +19,7 @@ const Navbar = () => {
         <a href="/designximpact">designximpact</a>
       </div>
       <div className="social-media">
-        <a href="https://instagram.com/designximpact" target="_blank" rel="noopener noreferrer">
+        <a href="https://instagram.com/princetondesign" target="_blank" rel="noopener noreferrer">
           <img src={igLogoImage} alt="Instagram" />
         </a>
       </div>
